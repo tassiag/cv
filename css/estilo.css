@@ -1,0 +1,222 @@
+body {
+  color: #2f3d3a;
+  margin: 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 5.625rem;
+  color: #1a3263;
+  line-height: 1.2;
+  font-weight: lighter;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #05004e;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  color: #504e6d;
+}
+
+a {
+  color: #05013d;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+}
+
+a:hover {
+  color: #fff;
+}
+
+p {
+  color: #2f3d3a;
+  line-height: 1.5;
+}
+
+hr {
+  border: dotted #ffce63 10px;
+  border-bottom: none;
+  width: 10%;
+  margin: 50px auto;
+}
+
+/*------------------ containers --------------------*/
+.top-container {
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  position: relative;
+  height: 360px;
+  margin: 0;
+}
+
+.middle-container {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #ffce63;
+  padding: 50px 0 30px;
+  margin-top: 0;
+}
+
+/*------------------ classes dentro de containers --------------------*/
+.profile {
+  padding: 30px 0;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.skills {
+  margin: 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  padding: 5px;
+  margin: 10px auto;
+  width: 40%;
+}
+
+.contact-msg {
+  margin-top: 40px;
+}
+
+/*------------------ navbar --------------------*/
+.navbar {
+  background-color: #faf9f9;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  opacity: 0.5;
+  text-align: right;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #1a3263;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar a:hover {
+  background: #ffce63;
+  color: black;
+  opacity: 1;
+}
+
+/*------------------ classes --------------------*/
+.subtitle {
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.moi {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 0.8em;
+  padding: 15px 0;
+}
+
+.footer-link {
+  padding: 15px;
+}
+
+.creditos {
+  font-size: 0.7em;
+}
+
+/*------------------ imagens --------------------*/
+.top-star {
+  position: absolute;
+  right: 420px;
+  top: 70px;
+  z-index: 0;
+  width: 56px;
+}
+
+.bottom-star {
+  position: absolute;
+  left: 415px;
+  bottom: 255px;
+  z-index: 2;
+  width: 56px;
+}
+
+.skill-1 {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2 {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-3 {
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-button {
+  padding-top: 20px;
+}
+
+.prof {
+  padding-top: 8px;
+  text-align: left;
+  float: left;
+  margin-left: 20px;
+}
+
+.plant {
+  width: 170px;
+  bottom: 10px;
+  padding: 10px;
+}
+
+.course {
+  font-style: italic;
+}
+
+/*------------------ botao contato --------------------*/
+.butn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 14px;
+  background: #1a3263;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #504e6d;
+  text-decoration: none;
+}
